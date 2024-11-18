@@ -1,0 +1,16 @@
+[package]
+name = "gh-workflow"
+version = "0.3.0"
+edition = "2021"
+
+description = "A type-safe GitHub Actions workflow generator"
+license = "Apache-2.0"
+documentation = "https://docs.rs/gh-workflow"
+homepage = "https://github.com/tailcallhq/rust-gh-workflow"
+repository = "https://github.com/tailcallhq/rust-gh-workflow"
+
+[dependencies]
+
+[dev-dependencies]
+insta = "1.40.0"
+pretty_assertions = "1.4.1"
